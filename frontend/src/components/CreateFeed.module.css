@@ -1,0 +1,153 @@
+.previewImg {
+  background-position: center;
+  background-color:rgb(240, 241, 252);
+  object-fit: contain;
+}
+
+.container {
+  /* text-align: center; */
+  align-items: 80%;
+  font-family: 'Jalnan';
+}
+
+.Card {
+  position:relative;
+  width: 50%;
+  width: 100%;
+  height:100%;
+  /* style={{width:"100%", height:"100%"}} */
+  
+}
+.selectLabel {
+  background-color:black;
+  width:500px;
+  height:500px;
+}
+
+.picture {
+  vertical-align:middle;
+  background-color:rgb(171, 175, 198);
+  border-radius:5px;
+  cursor: pointer;
+  text-align: center;
+
+  padding-top:1%;
+  padding-bottom:1%;
+  height:10%;
+  font-weight: bold;
+}
+
+.picture:hover {
+  background-color: antiquewhite;
+  cursor: url(cursors/camera.png) 16 16, auto;
+}
+
+.Title {
+  border-radius:5px;
+  border-color:rgb(171, 175, 198);
+  margin-right:10%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  /* border-color:none; */
+}
+
+.Title:hover{
+  cursor: url(cursors/pencil.png) 0 0 , auto;
+}
+.place {
+  /* display:inline-block; */
+  margin-left: 12px;
+  border-radius:5px;
+  border-color:rgb(171, 175, 198);
+  padding-top: 3px;
+  padding-bottom: 3px;
+  
+}
+
+.place:hover{
+  cursor: url(cursors/pencil.png) 0 0 , auto;
+}
+
+.text {
+  margin-top:1rem;
+}
+
+.Content {
+  border-radius: 5px;
+  white-space: normal;
+  font-weight: bold;
+}
+
+.Content:hover{
+  cursor: url(cursors/pencil.png) 0 0 , auto;
+}
+
+.Nickname {
+  border-radius: 5px;
+  font-weight:bold;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.Nickname {
+  cursor: url(cursors/pencil.png) 0 0 , auto;
+}
+
+.feed_btn {
+  font-weight:bold;
+  border:none;
+  background-color: white;
+  color:black;
+  margin-left: 75%;
+}
+
+.feed_btn:hover{
+  cursor: url(cursors/add.png) 0 0, auto;
+}
+
+.feed_btn:hover {
+  color:rgb(78, 88, 157);
+}
+
+.autoComplete {
+  width:93%;
+  margin-left: 12px;
+  border-radius:5px;
+  height:132px;
+  overflow:auto;
+  background-color: whitesmoke;
+  font-weight: bold;
+  padding-left:0;
+}
+
+.autoComplete_li {
+  cursor:pointer;
+  border-radius: 5px;
+  overflow:auto;
+  /* font-size:10px; */
+  padding-left: 0px;
+  font-weight: bold;
+}
+.autoComplete_li:hover {
+  background-color:white;
+}
+
+.labelPlace {
+  background-color: antiquewhite;
+  border-radius:5px;
+  text-align:center;
+  padding-top:1%;
+  padding-bottom:1%;
+  height:10%;
+  font-weight: bold;
+  font-size:15px;
+
+}
+
+.is_right_label {
+
+  font-weight:bold;
+  float: left;
+  display: block;
+
+}

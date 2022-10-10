@@ -1,0 +1,10 @@
+.feeds {
+    width: 110%;
+    height: 30%;
+    box-sizing: border-box;
+    /* margin-left:9%; */
+  }
+  
+  .feeds swiper swiper-slide {
+    margin: 20px;
+  }

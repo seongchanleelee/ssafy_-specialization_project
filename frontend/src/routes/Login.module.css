@@ -1,0 +1,178 @@
+.login {
+    background-color: #92B4EC;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Jalnan';
+    /* margin-bottom: 70px;
+    font-weight: 300;
+    padding: 20px;
+    color: #adaeb9;
+    display: grid;
+    grid-template-columns: minmax(150px, 1fr) 2fr;
+    grid-gap: 20px;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+      0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025); */
+  }
+
+  .container{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box {
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .login_woori {
+    margin: auto;
+    position: absolute;
+    animation: doodoodoongjang 4s;
+  }
+
+  .login_bus {
+    position: absolute;
+    animation: bus 6s, vibration 0.3s infinite;
+    opacity: 0;
+  }
+
+  @keyframes bus {
+    0% {
+      margin-left: 400%;
+      opacity: 1;
+      
+    }
+
+    40% {
+      margin-left: 0%;
+    }
+
+    50% {
+      margin-left: 0%;
+    }
+
+    60% {
+      margin-left: 0%;
+    }
+
+    100% {
+      margin-left: -400%;
+      opacity: 1;
+      
+    }
+  }
+
+  @keyframes doodoodoongjang {
+    0% {
+      opacity: 0;
+    }
+
+    49% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes vibration {
+    0% {
+      transform: rotate(2deg);
+    }
+    50% {
+      transform: rotate(-2deg);
+    }
+    100% {
+      transform: rotate(2deg);
+    }
+  }
+  
+  .pjt_name{
+    margin: 0;
+    /* font-size: 60px; */
+    font-size: 2.6rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+
+  .button {
+    /* animation: btn 6s; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .button:hover {
+    cursor: url(cursors/cursors.png) 8 8, auto;
+  }
+
+  @keyframes btn{
+    0% {
+      opacity: 0;
+    }
+
+    50% {
+      opacity: 0;
+    }
+    
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .kakao_btn {
+    /* background-image: url("/src/images/kakao_login_medium.png");
+    background-repeat: no-repeat;
+    background-size : cover;
+    margin: 10px auto;
+    padding: -10px; 
+    color: transparent; */
+    width: auto;
+    height: 60px;
+  }
+
+  .kakao_btn:hover {
+    cursor: url(cursors/cursors.png) 8 8, auto;
+    /* border: 1px solid yellow ; */
+  }
+
+  .sub_button {
+    margin-top: 3px;
+    font-size: 12px;
+    color: #f5f5f5;
+    margin-top:10px;
+  }
+
+  .sub_button:hover {
+    background-color: aliceblue;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius:5px;
+    cursor: url(cursors/cursors.png) 8 8, auto;
+  }
+  
+  .login_items {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }

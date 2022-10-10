@@ -1,0 +1,19 @@
+.recommendations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* width: 100%; */
+}
+
+.recommendations_list {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+}
+  
+@media screen and (max-width: 1090px) {
+  .recommedations {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}

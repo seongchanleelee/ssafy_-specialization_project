@@ -1,0 +1,92 @@
+.container{
+  position: fixed;
+  background-color: #92B4EC;
+  height: 100vh;
+  width: 400px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  animation: screen-move 2s;
+  /* animation-timing-function: linear; */
+}
+
+.box {
+  float: left;
+  width: 100%;
+  height: 250px;
+  margin: auto;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.login_woori {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  margin: auto;
+  position: absolute;
+  animation: doodoodoongjang 3s, vibration 0.4s 5;
+  animation-timing-function: linear;
+}
+
+.login_bus {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  position: absolute;
+  animation: bus 2s, vibration 0.2s infinite;
+  opacity: 0;
+}
+
+@keyframes screen-move {
+  0% {
+    width: 100vw;
+  }
+  100% {
+    width: 400px;
+  }
+}
+
+@keyframes bus {
+  0% {
+    margin-left: 0%;
+    opacity: 1;
+  }
+
+  75% {
+    margin-left: 0%;
+    opacity: 1;
+  }
+
+  100% {
+    margin-left: -400%;
+    opacity: 1;
+  }
+}
+
+@keyframes doodoodoongjang {
+  0% {
+    left: 120%;
+  }
+  66% {
+    left: 320px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+@keyframes vibration {
+  0% {
+    transform: rotate(2deg);
+  }
+  50% {
+    transform: rotate(-2deg);
+  }
+  100% {
+    transform: rotate(2deg);
+  }
+}
